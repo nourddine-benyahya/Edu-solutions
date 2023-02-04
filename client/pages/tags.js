@@ -40,17 +40,17 @@ function TagsPage() {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Tags - Clone of Stackoverflow</title>
+        <title>Categories - edu-solutions</title>
       </Head>
 
-      <PageTitle title="Tags" borderBottom={false}>
-        A tag is a keyword or label that categorizes your question with other,
-        similar questions. Using the right tags makes it easier for others to
+      <PageTitle title="Categories" borderBottom={false}>
+        A Categorie is a keyword or label that Categories your question with other,
+        similar questions. Using the right Categories makes it easier for others to
         find and answer your question.
       </PageTitle>
 
       <SearchInput
-        placeholder="Filter by tag name"
+        placeholder="Filter by Categorie name"
         autoFocus
         isLoading={loading}
         autoComplete="off"
@@ -74,7 +74,7 @@ function TagsPage() {
             ))}
           </TagList>
 
-          {tags.length == 0 && <p className="not-found">No tags matched your search.</p>}
+          {tags.length == 0 && <p className="not-found">No Categories matched your search.</p>}
         </>
       )}
     </Layout>

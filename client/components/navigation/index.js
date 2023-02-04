@@ -1,5 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
+import { BiCategory } from 'react-icons/bi';
+import { FiUsers } from 'react-icons/fi';
 
 import NavItem from './nav-item'
 import { World } from '../icons'
@@ -22,14 +24,14 @@ const Navigation = () => {
       </NavItem>
 
       <NavItem href="/tags" selected={router.pathname == '/tags'}>
-        <span>categories</span>
+      <BiCategory /><span>categories</span>
       </NavItem>
 
       <NavItem
         href="/users"
         selected={router.pathname.split('/')[1] == 'users'}
       >
-        <span>Users</span>
+        <FiUsers /><span>Users</span>
       </NavItem>
     </nav>
   )
