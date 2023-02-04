@@ -98,3 +98,23 @@
     border-right: 1px solid var(--black-200);
   }
 }
+.headerNr{
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 14px;
+  justify-content: flex-end;
+  
+}
+.headerNr>*{
+  cursor: pointer;
+}
+
+.headerNr>*:hover{
+  color: #C27DFC;
+}

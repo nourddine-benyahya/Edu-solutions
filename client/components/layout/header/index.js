@@ -17,7 +17,6 @@ import styles from './header.module.css'
 const Header = ({ className, ...props }) => {
   const { handleComponentVisible } = useContext(ModalContext)
   const { isAuthenticated, authState, logout } = useContext(AuthContext)
-
   const {
     ref,
     toggleRef,
@@ -49,6 +48,13 @@ const Header = ({ className, ...props }) => {
             <span>Edu</span>-Solution
           </p>
         </Button>
+        <div className={styles.headerNr} >
+          <p>Home</p>
+          <p>Services</p>
+          <p>Futures</p>
+          <p>About us</p>
+          <p>Contact us</p>
+        </div>
         <div style={{ flex: 1 }}></div>
 
         {isAuthenticated() ? (

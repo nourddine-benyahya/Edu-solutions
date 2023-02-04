@@ -1,9 +1,7 @@
-
 ## :rocket: Tech Stack
 
 - ReactJs
 - NextJs
-- Storybook
 - PostCSS
 - NodeJs
 - Express
