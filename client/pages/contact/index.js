@@ -15,9 +15,12 @@ function ContactPage() {
       <Head>
         <title>Contact us - EduSolutions</title>
       </Head>
-      <PageTitle title="Contact us" borderBottom={false}></PageTitle>
+      <PageTitle title="Contact us" borderBottom={false} ></PageTitle>
+      <p className={styles.text}>
       If you have any questions or interested in our community don't hesitate to
       send us message, we will make sure to respond!
+      </p>
+      
       <Formik
         initialValues={{ name: '', email: '', msg: '' }}
         validationSchema={Yup.object({
@@ -45,7 +48,7 @@ function ContactPage() {
           handleSubmit,
           isSubmitting
         }) => (
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className={styles.form}>
             <div className={styles.container}>
               <FormInput
                 label="Name"

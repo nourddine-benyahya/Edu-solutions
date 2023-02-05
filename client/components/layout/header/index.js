@@ -55,8 +55,13 @@ const Header = ({ className, ...props }) => {
         <div className={styles.headerNr} >
           <p>Home</p>
           <p>Services</p>
-          <p>Futures</p>
           <p>About us</p>
+          <NavItem
+          href="/Futures" selected={router.pathname == '/Futures'}
+         
+      >
+        Futures
+      </NavItem>
           <NavItem
           href="/contact" selected={router.pathname == '/contact'}
       >

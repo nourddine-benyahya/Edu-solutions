@@ -1,0 +1,66 @@
+.content{
+    width: 85%;
+    margin-left: 8%;
+    margin-bottom: 20vh;
+}
+.content>div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.content>div:first-of-type h1{
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 12px;
+    text-align: center;
+
+}
+.content>div:first-of-type p{
+    color: #555;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 48px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.content>div:last-of-type{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.content>div:last-of-type div{
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 4%);
+    padding: 24px 24px 32px;
+    text-align: center;
+
+}
+.content>div:last-of-type div h2{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.content>div:last-of-type div p{
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.icon{
+    margin-top: 20px;
+color: rgb(148, 55, 230);
+font-size: 50px;
+
+}
