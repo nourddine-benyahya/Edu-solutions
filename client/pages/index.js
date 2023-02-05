@@ -55,8 +55,7 @@ const HomePage = () => {
     <Layout>
       <Head>
         <title>
-          {router.query.tag ? router.query.tag : 'Questions'} - Clone of
-          Stackoverflow
+          {router.query.tag ? router.query.tag : 'Questions'} - EduSolutions
         </title>
       </Head>
 
