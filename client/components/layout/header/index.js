@@ -11,6 +11,7 @@ import { AuthContext } from '../../../store/auth'
 import Button from '../../button'
 import NavigationDropdown from '../../navigation-dropdown'
 import { Menu, Close, Logo } from '../../icons'
+import {MdLogout} from 'react-icons/md'
 
 import styles from './header.module.css'
 
@@ -68,7 +69,7 @@ const Header = ({ className, ...props }) => {
                 <a>{authState.userInfo.username}!</a>
               </Link>
             </p>
-            <a onClick={() => logout()}>log out</a>
+            <a onClick={() => logout()}><MdLogout/></a>
           </div>
         ) : (
           <>
