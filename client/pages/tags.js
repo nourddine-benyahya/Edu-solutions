@@ -40,7 +40,7 @@ function TagsPage() {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Categories - edu-solutions</title>
+        <title>Categories - EduSolutions</title>
       </Head>
 
       <PageTitle title="Categories" borderBottom={false}>

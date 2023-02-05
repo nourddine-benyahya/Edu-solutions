@@ -32,7 +32,8 @@ const UserAvatar = ({ username }) => {
             <Link href="/users/[username]" as={`/users/${username}`}>
               <a>
                 <img
-                  src={`https://secure.gravatar.com/avatar/${userInfo.id}?s=164&d=identicon`}
+                  src={`https://www.roblox.com/headshot-thumbnail/image?userId=${userInfo.id}&width=60&height=60&format=png`}
+                  // src={`https://secure.gravatar.com/avatar/${userInfo.id}?s=164&d=identicon`}
                   alt={username}
                 />
               </a>
