@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Router from 'next/router'
 import NProgress from 'nprogress'
+import styles from './Home.module.css'
+
 
 import useComponentVisible from '../hooks/useComponentVisible'
 import ModalContext from '../store/modal'
@@ -26,18 +28,17 @@ function MyApp({ Component, pageProps }) {
     isComponentVisible,
     setIsComponentVisible
   } = useComponentVisible(false)
-
   const [authScreen, setAuthScreen] = useState(null)
-
   const handleComponentVisible = (componentVisible, authScreen) => {
     setIsComponentVisible(componentVisible)
     setAuthScreen(authScreen)
   }
-
+  const [page,setpage]=useState(true)
   return (
-    <ModalContext.Provider
-      value={{ ref, handleComponentVisible, setIsComponentVisible }}
-    >
+    <>
+    {!page ? (
+      <ModalContext.Provider
+      value={{ ref, handleComponentVisible, setIsComponentVisible }}>
       <AuthProvider>
         <FetchProvider>
           <TagProvider>
@@ -51,6 +52,30 @@ function MyApp({ Component, pageProps }) {
         </FetchProvider>
       </AuthProvider>
     </ModalContext.Provider>
+
+    ) : (
+
+      <div className={styles.gridParent} >
+      <div className={styles.gridchild0} >
+        <div className={styles.bigtitle}>Welcome to Edu-Solution</div>
+        <div className={styles.subtitle}>Join the Community of Questioners and Knowledgable Ones: Where Knowledge Meets Conversation</div>
+        <div className={styles.text}>the ultimate platform for all your questions and answers. Here, you can connect with a community of experts and enthusiasts in various subjects such as programming, math, physics, English, medicine, and many more. Whether you have a question or a wealth of knowledge to share, join us and be part of the conversation. Let's build a world of knowledge, together
+        </div>
+        <button className={styles.homeBtn} onClick={(e)=>(setpage(false))} >Let’s Started</button>
+      </div>
+      <div>
+      <img src="" alt="" className={styles.image} />
+      </div>
+    </div>
+
+
+    )}
+
+
+
+
+</>
+    
   )
 }
 

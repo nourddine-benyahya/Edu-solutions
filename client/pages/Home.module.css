@@ -1,0 +1,54 @@
+.gridParent {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+    padding: 2% 1%;
+    margin: 3% 1%;
+    overflow: hidden;
+
+}
+
+.gridchild0 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.1fr 0.1fr 0.1fr;
+    grid-row-gap: 5%;
+    margin: 6% 0 0 0;
+    padding: 8% 0 0 0 ;
+}
+
+.bigtitle{
+    font-size: 180%;
+    letter-spacing: 10px;
+}
+.subtitle{
+    font-size: 104%;
+    letter-spacing: 1px;
+}
+.text{
+    font-size: 100%;
+    line-height: 150%;
+    border-left: 2px solid #9ab3ff92;
+    padding: 0 0 0 2%;
+    margin: 4% 0;
+}
+
+.homeBtn {
+    width: 40%;
+    border-radius: 20px;
+    border: #DAE4FF;
+    padding: 1.2% 0;
+    background-color: #DAE4FF ;
+    margin: 5% 0 5% 70%;
+    cursor: pointer;
+    font-size: 90%;
+    color: rgb(58, 58, 58);
+
+
+}
+
+.image {
+    width: 100%;
+}
