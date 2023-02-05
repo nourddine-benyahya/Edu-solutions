@@ -57,7 +57,7 @@ const Header = ({ className, ...props }) => {
           <p>Services</p>
           <p>About us</p>
           <NavItem
-          href="/Futures" selected={router.pathname == '/Futures'}
+          href="/futures" selected={router.pathname == '/futures'}
          
       >
         Futures
