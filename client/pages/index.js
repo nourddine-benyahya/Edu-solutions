@@ -13,6 +13,7 @@ import QuestionSummary from '../components/question/question-summary'
 import PageTitle from '../components/page-title'
 import ButtonGroup from '../components/button-group'
 import { Spinner } from '../components/icons'
+import Footer from '../components/Footer/Footer'
 
 const HomePage = () => {
   const router = useRouter()
@@ -125,6 +126,8 @@ const HomePage = () => {
       <img src="https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?w=740&t=st=1675593625~exp=1675594225~hmac=12c817c8dbb687e77f5d86557d35e5ae0b515335f3323f1d6e7f3446682936d4" alt="" className={styles.image} />
       </div>
     </div>
+    <Footer />
+         
     </>
 
     )}

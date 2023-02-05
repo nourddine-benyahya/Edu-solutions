@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
     setAuthScreen(authScreen)
   }
   return (
- 
+      
       <ModalContext.Provider
       value={{ ref, handleComponentVisible, setIsComponentVisible }}>
       <AuthProvider>
