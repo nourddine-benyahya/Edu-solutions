@@ -19,7 +19,7 @@ const  HomePage = () => {
     <>
       <Home status={pageNr}/>
       
-      {!pageNr && <LandingPage status={pageNr} handleClick={handleClick} />}
+      <LandingPage status={pageNr} handleClick={handleClick} />
 
     </>
   )
