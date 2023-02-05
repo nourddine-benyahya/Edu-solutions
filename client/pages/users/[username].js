@@ -25,7 +25,7 @@ const UserDetail = ({ username }) => {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Users {username} - Clone of Stackoverflow</title>
+        <title>Users {username} - EduSolutions</title>
       </Head>
 
       <UserCard>
