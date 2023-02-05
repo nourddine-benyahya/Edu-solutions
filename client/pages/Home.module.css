@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 2%;
+    grid-column-gap: 6%;
     padding: 2% 1%;
     margin: 3% 1%;
     overflow: hidden;
@@ -48,7 +48,10 @@
 
 
 }
+.homeBtn:hover{
+    background-color: whitesmoke;
+}
 
 .image {
-    width: 100%;
+    width: 80%;
 }
