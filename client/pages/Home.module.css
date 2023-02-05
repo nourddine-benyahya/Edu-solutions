@@ -36,11 +36,11 @@
 }
 
 .homeBtn {
-    width: 40%;
+    width: 30%;
     border-radius: 20px;
     border: #DAE4FF;
     padding: 1.2% 0;
-    background-color: #DAE4FF ;
+    background-color: #b2c3f2 ;
     margin: 5% 0 5% 70%;
     cursor: pointer;
     font-size: 90%;
@@ -49,7 +49,7 @@
 
 }
 .homeBtn:hover{
-    background-color: whitesmoke;
+    background-color: rgb(196, 209, 216);
 }
 
 .image {
