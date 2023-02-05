@@ -14,8 +14,11 @@ import { Menu, Close, Logo } from '../../icons'
 import {MdLogout} from 'react-icons/md'
 
 import styles from './header.module.css'
+import { useRouter } from 'next/router'
+import NavItem from '../../navigation/nav-item'
 
 const Header = ({ className, ...props }) => {
+  const router = useRouter()
   const { handleComponentVisible } = useContext(ModalContext)
   const { isAuthenticated, authState, logout } = useContext(AuthContext)
   const {
@@ -54,7 +57,13 @@ const Header = ({ className, ...props }) => {
           <p>Services</p>
           <p>Futures</p>
           <p>About us</p>
-          <p>Contact us</p>
+          <NavItem
+          href="/contact" selected={router.pathname == '/contact'}
+         
+      >
+        Contact us
+      </NavItem>
+
         </div>
         <div style={{ flex: 1 }}></div>
 

@@ -33,7 +33,7 @@ const HomePage = () => {
     }
 
     if (router.query.tag) {
-      fetchQuestionByTag()
+      fetchQuestionByTag()  
     } else {
       fetchQuestion()
     }

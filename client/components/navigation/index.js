@@ -24,7 +24,7 @@ const Navigation = () => {
       </NavItem>
 
       <NavItem href="/tags" selected={router.pathname == '/tags'}>
-      <BiCategory /><span>categories</span>
+      <BiCategory /><span>Categories</span>
       </NavItem>
 
       <NavItem
