@@ -59,7 +59,6 @@ const Header = ({ className, ...props }) => {
           <p>About us</p>
           <NavItem
           href="/contact" selected={router.pathname == '/contact'}
-         
       >
         Contact us
       </NavItem>

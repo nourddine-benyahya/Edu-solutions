@@ -27,7 +27,7 @@ function ContactPage() {
             .min(10, 'Name must be at least 10 characters.'),
           email: Yup.string()
             .required('Email is missing.')
-            .email('Email must contain @'),
+            .email('Please write a proper email'),
           msg: Yup.string()
             .required('Message is missing')
             .min(20, 'Message must be at least 20 characters.')
