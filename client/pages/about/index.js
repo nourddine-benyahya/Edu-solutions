@@ -39,7 +39,7 @@ class Card extends React.Component {
             author='fill stack devloper' />
             <Card
             img='https://media.licdn.com/dms/image/D4E03AQHll6syXpOglg/profile-displayphoto-shrink_800_800/0/1674495422805?e=1681344000&v=beta&t=i5Eq_WpSn3fEJbU3ZDJCPiHygpqn8xk6HrrVNl5eVKk'
-            title='ikhlas elmorabit'
+            title='ikhlas elmorabet'
             author='fill stack devloper' />
             <Card
             img='https://avatars.githubusercontent.com/u/95361652?v=4'
