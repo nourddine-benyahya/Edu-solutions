@@ -30,15 +30,15 @@ class Card extends React.Component {
          <div className={styles.cards}>
         
            <Card
-            img='https://media.licdn.com/dms/image/D4E35AQEk5GQNswJscQ/profile-framedphoto-shrink_800_800/0/1664481799922?e=1676235600&v=beta&t=qFfPhEX7J5Ar0XOcLteyoL6dgb807O50VnC0HvAcehs'
+            img='https://avatars.githubusercontent.com/u/112900657?v=4'
             title='ayoub aarab'
             author='fill stack devloper' />
             <Card
-            img='https://media.licdn.com/dms/image/D4E03AQENZShKQMLzMA/profile-displayphoto-shrink_800_800/0/1667842519129?e=1681344000&v=beta&t=R1P_jcepzu0M90xxYH0om40W7LZEQ8c5KOu82SyhRlA'
+            img='https://avatars.githubusercontent.com/u/113578197?v=4'
             title='ilyass elghazi'
             author='fill stack devloper' />
             <Card
-            img='https://media.licdn.com/dms/image/D4E03AQHll6syXpOglg/profile-displayphoto-shrink_800_800/0/1674495422805?e=1681344000&v=beta&t=i5Eq_WpSn3fEJbU3ZDJCPiHygpqn8xk6HrrVNl5eVKk'
+            img='https://avatars.githubusercontent.com/u/95044177?v=4'
             title='ikhlas elmorabet'
             author='fill stack devloper' />
             <Card
